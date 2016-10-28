@@ -2,10 +2,10 @@
 
 /**
  * @ngdoc function
- * @name udaciMealsApp.controller:MenuCtrl
+ * @name nx_jokerankApp.controller:MenuCtrl
  * @description
  * # MenuCtrl
- * Controller of the udaciMealsApp
+ * Controller of the nx_jokerankApp
  */
 angular.module('nx_jokerankApp')
   .controller('MenuCtrl', function () {

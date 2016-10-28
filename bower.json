@@ -1,5 +1,5 @@
 {
-  "name": "udaci-meals",
+  "name": "nx_jokerank",
   "version": "0.0.0",
   "dependencies": {
     "angular": "^1.4.0",
@@ -9,7 +9,7 @@
     "angular-mocks": "^1.4.0"
   },
   "appPath": "app",
-  "moduleName": "udaciMealsApp",
+  "moduleName": "nx_jokerankApp",
   "overrides": {
     "bootstrap": {
       "main": [
