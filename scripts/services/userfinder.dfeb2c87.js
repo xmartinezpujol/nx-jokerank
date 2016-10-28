@@ -10,6 +10,6 @@
 angular.module('nx_jokerankApp')
   .service('userFinder', function () {
     this.getUsers = function(){
-      return $.get( '/users/users.json' );
+      return $.get( 'nx-jokerank/users/users.json' );
     };
   });
