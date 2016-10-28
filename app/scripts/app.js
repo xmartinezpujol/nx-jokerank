@@ -8,5 +8,6 @@
  *
  * Main module of the application.
  */
-angular
-  .module('nx_jokerankApp', []);
+
+
+angular.module('nx_jokerankApp', []);

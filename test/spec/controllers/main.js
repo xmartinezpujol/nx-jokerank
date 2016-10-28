@@ -3,7 +3,7 @@
 describe('Controller: MainCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('udaciMealsApp'));
+  beforeEach(module('nx_jokerankApp'));
 
   var MainCtrl,
     scope;
