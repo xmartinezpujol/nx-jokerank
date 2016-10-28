@@ -66,6 +66,14 @@ h4 {
   font-weight: bold;
 }
 
+.btn.disabled{
+  pointer-events: none;
+}
+
+.btn.disabled:focus{
+  background-color: #009688;
+}
+
 .btn-primary{
   background-color: #009688;
 }
