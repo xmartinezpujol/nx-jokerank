@@ -1,0 +1,14 @@
+<h1 class="title">{{menu.name}}</h1>
+
+<ul id="userList" class="row">
+  <li id="user-{{user}}" class="col-md-3" ng-repeat="user in menu.users | orderBy: '-rating'">
+    <div class="item-list well" ng-class="{'crack': user.rating > 10, 'pro': user.rating > 20, 'boss': user.rating > 30}">
+      <h4>{{user.name}}</h4>
+      <h5>"{{user.nickname}}"</h5>
+      <img class="user-image" src="images/{{user.img}}" height="100" width="100" alt="{{user}}">
+      <p class="rating">Likes: {{user.rating}}</p>
+      <button class="btn btn-primary" ng-click="menu.likeUp(user)">+</button>
+      <button ng-class="{'disabled' : user.rating == 0}" class="btn btn-primary" ng-click="menu.likeDown(user)">-</button>
+    </dir>
+  </li>
+</ul>
