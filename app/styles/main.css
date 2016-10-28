@@ -1,0 +1,196 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+  background-color: black;
+  text-align: center;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+  text-align: center;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.btn-primary{
+  background-color: #009688;
+}
+
+.btn-primary:hover{
+  background-color: #009688;
+}
+
+.btn-primary:focus{
+  background-color: #009688;
+}
+
+.btn-primary:active:focus{
+  background-color: #00695C;
+}
+
+.btn-primary:active:hover{
+  background-color: #00695C;
+}
+
+.well{
+  background-color: #E0F2F1;
+}
+
+#userList .crack {
+  background-color: #FFCCBC;
+  border-color: black;
+  override: hidden;
+}
+
+#userList .crack::before {
+  background: #FF7043;
+  box-shadow: 1px 1px 5px rgba(146, 142, 142, 0.5);
+  content: 'CRACK';
+  color: white;
+  text-align: center;
+  transform: rotate(45deg);
+  position: absolute;
+  height: 1.5em;
+  width: 5em;
+  top: 1.5em;
+  right: -0.2em;
+}
+
+#userList .pro {
+  background-color: #E0E0E0;
+  border-color: black;
+  override: hidden;
+}
+
+#userList .pro::before {
+  background: #9E9E9E;
+  box-shadow: 1px 1px 5px rgba(146, 142, 142, 0.5);
+  content: 'PRO';
+  color: white;
+  text-align: center;
+  transform: rotate(45deg);
+  position: absolute;
+  height: 1.5em;
+  width: 5em;
+  top: 1.5em;
+  right: -0.2em;
+}
+
+#userList .boss {
+  background-color: #FFCC80;
+  border-color: black;
+  override: hidden;
+}
+
+#userList .boss::before {
+  background: #EF6C00;
+  box-shadow: 1px 1px 5px rgba(146, 142, 142, 0.5);
+  content: 'DA BOSS';
+  color: white;
+  text-align: center;
+  transform: rotate(45deg);
+  position: absolute;
+  height: 1.5em;
+  width: 5em;
+  top: 1.5em;
+  right: -0.2em;
+}
+
+.title{
+  color: #16fcfa;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+img.user-image {
+  border: 1px solid black;
+  margin-bottom: 1em;
+}
+
+ul{
+  padding: 0;
+}
+
+li{
+  list-style: none;
+  padding: 1em;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
